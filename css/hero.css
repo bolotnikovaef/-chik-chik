@@ -1,0 +1,48 @@
+.hero {
+    padding: 62px 0;
+}
+.hero__title {
+    max-width: 904px;
+    font-size: 54px;
+}
+.hero__title + * {
+    margin-top: 36px;
+}
+
+.slider {
+    overflow: hidden;
+    position: relative;
+}
+.slider__container {
+    /*display: none;*/
+}
+.slider__list {
+    display: flex;
+    column-gap: 32px;
+}
+.slider__item {
+    flex-grow: 0;
+    flex-shrink: 0;
+    max-width: 280px;
+}
+.slider__arrow {
+    position: absolute;
+    bottom: 30%;
+    height: 8px;
+    width: 64px;
+    cursor: pointer;
+}
+.slider__arrow:hover {
+    opacity: 0.8;
+}
+.slider__arrow:active {
+    opacity: 0.6;
+}
+.slider__arrow_left {
+    left: 8%;
+    background-image: url(../img/slider/Arrow\ 1.svg);
+}
+.slider__arrow_right {
+    right: 8%;
+    background-image: url(../img/slider/Arrow\ 2.svg);
+}

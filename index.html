@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chik-Chik - Барбершоп</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/preload.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/hero.css">
+    <link rel="stylesheet" href="./css/price.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/book.css">
+    <link rel="stylesheet" href="./css/radio.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <!--JS-->
+    <script src="./js/script.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <a href="#" class="header__logo"><img src="./img/header/logo.svg" alt="chik-chik логотип барбершоп"></a>
+                <div class="navigation-wrapper">
+                    <nav class="header__navigation navigation">
+                        <ul class="navigation__list">
+                            <li><a href="#price">стоимость услуг</a></li>
+                            <li><a href="#about">О нас</a></li>
+                        </ul>
+                    </nav>
+                    <a href="#book" class="header__link btn">Записаться</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero__title title">Мы создаём искусство, которое не стыдно показать</h1>
+                <div class="hero__slider slider">
+                    <div class="slider__container">
+                        <ul class="slider__list">
+                            <li class="slider__item">
+                                <img src="./img/slider/photo01.jpg" alt="" class="slider__img">
+                            </li>
+                            <li class="slider__item">
+                                <img src="./img/slider/photo02.jpg" alt="" class="slider__img">
+                            </li>
+                            <li class="slider__item">
+                                <img src="./img/slider/photo03.jpg" alt="" class="slider__img">
+                            </li>
+                            <li class="slider__item">
+                                <img src="./img/slider/photo04.jpg" alt="" class="slider__img">
+                            </li>
+                            <li class="slider__item">
+                                <img src="./img/slider/photo05.jpg" alt="" class="slider__img">
+                            </li>
+                            <li class="slider__item">
+                                <img src="./img/slider/photo06.jpg" alt="" class="slider__img">
+                            </li>
+                            <li class="slider__item">
+                                <img src="./img/slider/photo07.jpg" alt="" class="slider__img">
+                            </li>
+                            <li class="slider__item">
+                                <img src="./img/slider/photo08.jpg" alt="" class="slider__img">
+                            </li> 
+                        </ul>
+
+                        <button class="slider__arrow slider__arrow_left"></button>
+                        <button class="slider__arrow slider__arrow_right"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="price" id="price">
+            <div class="container">
+                <h2 class="price__title title">Стоимость наших услуг <span>...бесценна, но всё же</span> </h2>
+                <div class="price__wrapper">
+                    <!-- <div class="price__img"><img src="./img/price/allef-vinicius-IvQeAVeJULw-unsplash.jpg" alt=""></div> -->
+                    <div class="price__content">
+                        <ul class="price__list">
+                            <li class="price__item">
+                                <span class="price__item-title">Стрижка ножницами</span>
+                                <span class="price__item-count">2500 руб</span>
+                            </li>
+                            <li class="price__item">
+                                <span class="price__item-title">Стрижка машинкой</span>
+                                <span class="price__item-count">2000 руб</span>
+                            </li>
+                            <li class="price__item">
+                                <span class="price__item-title">Cтрижка + стрижка бороды</span>
+                                <span class="price__item-count">3000 руб</span>
+                            </li>
+                            <li class="price__item">
+                                <span class="price__item-title">Cтрижка + моделирование бороды</span>
+                                <span class="price__item-count">4000 руб</span>
+                            </li>
+                            <li class="price__item">
+                                <span class="price__item-title">Бритье головы</span>
+                                <span class="price__item-count">1500 руб</span>
+                            </li>
+                            <li class="price__item">
+                                <span class="price__item-title">Укладка</span>
+                                <span class="price__item-count">1500 руб</span>
+                            </li>
+                            <li class="price__item">
+                                <span class="price__item-title">Оформление бровей</span>
+                                <span class="price__item-count">1000 руб</span>
+                            </li>
+                        </ul>
+                        <a href="#book" class="price__link btn">Записаться</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="container">
+                <div class="about__text">
+                    <h2 class="about__title title">Мы помогаем всем мужчинам выглядеть уверенно</h2>
+                    <p class="about__descr">Сhik chik — это намного больше, чем просто барберная. Это место, 
+                    где вам помогут найти свой собственный, неповторимый стиль. Стоит довериться нашим мастерам один раз, 
+                    и, поверьте, новый образ не оставит Вас равнодушным. Мужские стрижки и опасное бритье — это наш профиль, 
+                    и мы уверены, что наши барберы делают это лучше всех.</p>
+                </div>
+                <ul class="about__list">
+                    <li class="about__item about__item_top">
+                        <h3 class="about__item-title">Топ специалисты</h3>
+                        <p class="about__item-descr">Мы подстрижем вас на высшем уровне</p>
+                    </li>
+                    <li class="about__item about__item_masters">
+                        <h3 class="about__item-title">Мастера бород и усов</h3>
+                        <p class="about__item-descr">Мы заботливо уложим вашу бороду и усы</p>
+                    </li>
+                    <div class="about__item about__item_garanty">
+                        <h3 class="about__item-title">Гарантия качества</h3>
+                        <p class="about__item-descr">Мы используем только профессиональные средства</p>
+                    </div>
+                </ul>
+            </div>
+        </section>
+        <section class="book" id="book">
+            <div class="container">
+                <h2 class="book__title title">Как записаться к нам</h2>
+                <ol class="book__list">
+                    <li class="book__item">Выберите услугу, можно выбрать сразу несколько</li>
+                    <li class="book__item">Выберите специалиста</li>
+                    <li class="book__item">Выберите удобный день и время</li>
+                </ol>
+                <form class="book__form">
+                    <div class="book__form-wrapper">
+                        <fieldset class="book__fieldset">
+                            <legend class="book__legend">Услуга</legend>
+                            <label class="radio">
+                                <input class="radio__input" type="radio" name="service">
+                                <span class="radio__label">Стрижка ножницами</span>
+                            </label>
+                            <label class="radio">
+                                <input class="radio__input" type="radio" name="service">
+                                <span class="radio__label">Стрижка машинкой</span>
+                            </label>
+                            <label class="radio">
+                                <input class="radio__input" type="radio" name="service">
+                                <span class="radio__label">Стрижка+стрижка бороды</span>
+                            </label>
+                            <label class="radio">
+                                <input class="radio__input" type="radio" name="service">
+                                <span class="radio__label">Стрижка + моделирование бороды</span>
+                            </label>
+                            <label class="radio">
+                                <input class="radio__input" type="radio" name="service">
+                                <span class="radio__label">Бритье головы</span>
+                            </label>
+                            <label class="radio">
+                                <input class="radio__input" type="radio" name="service">
+                                <span class="radio__label">Укладка</span>
+                            </label>
+                            <label class="radio">
+                                <input class="radio__input" type="radio" name="service">
+                                <span class="radio__label">Оформление бровей</span>
+                            </label>
+                        </fieldset>
+
+                        <fieldset class="book__fieldset">
+                            <legend class="book__legend">Специалист</legend>
+                            <label class="radio">
+                                <input class="radio__input" type="radio" name="specialist">
+                                <span class="radio__label radio__label_specialist" style="--bg-image: url(../img/book/master1.png)">Игорь</span>
+                            </label>
+                            <label class="radio">
+                                <input class="radio__input" type="radio" name="specialist">
+                                <span class="radio__label radio__label_specialist" style="--bg-image: url(../img/book/master2.png)">Анатолий</span>
+                            </label>
+                            <label class="radio">
+                                <input class="radio__input" type="radio" name="specialist">
+                                <span class="radio__label radio__label_specialist" style="--bg-image: url(../img/book/master3.png)">Руслан</span>
+                            </label>
+                            <label class="radio">
+                                <input class="radio__input" type="radio" name="specialist">
+                                <span class="radio__label radio__label_specialist" style="--bg-image: url(../img/book/master4.png)">Михаил</span>
+                            </label>
+                            <label class="radio">
+                                <input class="radio__input" type="radio" name="specialist">
+                                <span class="radio__label radio__label_specialist" style="--bg-image: url(../img/book/master5.png)">Евгений</span>
+                            </label>
+                        </fieldset>
+
+                        <fieldset class="book__fieldset">
+                            <legend class="book__legend">Дата и время</legend>
+                            <fieldset class="book__fieldset book__fieldset_sub">
+                                <label class="radio">
+                                    <input class="radio__input" type="radio" name="month">
+                                    <span class="radio__label">Январь</span>
+                                </label>
+                                <label class="radio">
+                                    <input class="radio__input" type="radio" name="month">
+                                    <span class="radio__label">Февраль</span>
+                                </label>
+                                <label class="radio">
+                                    <input class="radio__input" type="radio" name="month">
+                                    <span class="radio__label">Март</span>
+                                </label>
+                            </fieldset>
+                            <fieldset class="book__fieldset book__fieldset_sub">
+                                <label class="radio">
+                                    <input class="radio__input" type="radio" name="day">
+                                    <span class="radio__label">18 января</span>
+                                </label>
+                                <label class="radio">
+                                    <input class="radio__input" type="radio" name="day">
+                                    <span class="radio__label">19 января</span>
+                                </label>
+                                <label class="radio">
+                                    <input class="radio__input" type="radio" name="day">
+                                    <span class="radio__label">20 января</span>
+                                </label>
+                                <label class="radio">
+                                    <input class="radio__input" type="radio" name="day">
+                                    <span class="radio__label">21 января</span>
+                                </label>
+                            </fieldset>
+                            <fieldset class="book__fieldset book__fieldset_sub">
+                                <label class="radio">
+                                    <input class="radio__input" type="radio" name="time">
+                                    <span class="radio__label">10:00-11:30</span>
+                                </label>
+                                <label class="radio">
+                                    <input class="radio__input" type="radio" name="time">
+                                    <span class="radio__label">11:30-13:00</span>
+                                </label>
+                                <label class="radio">
+                                    <input class="radio__input" type="radio" name="time">
+                                    <span class="radio__label">13:00-14:30</span>
+                                </label>
+                                <label class="radio">
+                                    <input class="radio__input" type="radio" name="time">
+                                    <span class="radio__label">14:30-16:00</span>
+                                </label>
+                                <label class="radio">
+                                    <input class="radio__input" type="radio" name="time">
+                                    <span class="radio__label">16:00-17:30</span>
+                                </label>
+                                <label class="radio">
+                                    <input class="radio__input" type="radio" name="time">
+                                    <span class="radio__label">17:30-19:00</span>
+                                </label>
+                                <label class="radio">
+                                    <input class="radio__input" type="radio" name="time">
+                                    <span class="radio__label">19:00-20:30</span>
+                                </label>
+                            </fieldset>
+                        </fieldset>
+                    </div>
+                    <button class="book__btn btn">Записаться</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <a href="#" class="footer__logo"><img src="./img/header/logo.svg" alt="chik-chik логотип барбершоп"></a>
+                <div class="navigation-wrapper">
+                    <nav class="footer__navigation navigation">
+                        <ul class="navigation__list">
+                            <li><a href="#price">стоимость услуг</a></li>
+                            <li><a href="#about">О нас</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <ul class="footer__list">
+                    <li>Designer: Anastasia Ilina</li>
+                    <li>Developer: Elmira Bolotnikova</li>
+                </ul>
+            </div>
+            <span class="footer__copyright">© chik chik, 2023</span>
+        </div>
+    </footer>
+</body>
+</html>

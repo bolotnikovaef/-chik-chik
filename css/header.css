@@ -1,0 +1,21 @@
+.header__wrapper {
+    padding: 16px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #BFBDB2;
+}
+.navigation-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 54px;
+}
+.navigation__list {
+    display: flex;
+    font-size: 14px;
+    line-height: 1;
+    text-transform: uppercase;
+}
+.navigation__list li + li {
+    margin-left: 33px;
+}

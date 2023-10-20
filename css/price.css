@@ -1,0 +1,45 @@
+.price {
+    padding: 62px 0;
+}
+.price__title {
+    max-width: 592px;
+}
+.price__title span {
+    font-size: 16px;
+    text-transform: lowercase;
+}
+.price__title + * {
+    margin-top: 40px;
+}
+.price__wrapper {
+    display: flex;
+    column-gap: 32px;
+}
+.price__wrapper::before {
+    content: '';
+    flex-basis: 50%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/price/allef-vinicius-IvQeAVeJULw-unsplash.jpg);
+}
+.price__content {
+    flex-basis: 50%;
+}
+.price__list {
+    width: 592px;
+    margin-bottom: 62px;
+}
+.price__list li + li {
+    margin-top: 24px;
+}
+.price__item {
+    padding-bottom: 6px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 1;
+    border-bottom: 0.8px solid #BFBDB2;
+}
+.price__item-title {
+    text-transform: uppercase;
+}
