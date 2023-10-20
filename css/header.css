@@ -19,3 +19,11 @@
 .navigation__list li + li {
     margin-left: 33px;
 }
+
+.navigation__list {
+    transition: color 0.3s ease-in;
+}
+
+.navigation__list li:hover {
+    color: #96948c;
+}
